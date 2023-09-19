@@ -2,7 +2,7 @@ package encrypt
 
 import "testing"
 
-func Test(t *testing.T) {
+func TestEncrypt(t *testing.T) {
 	items := []struct {
 		content string
 		salt    string
